@@ -4,6 +4,7 @@ namespace App;
 
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
+use Illuminate\Contracts\Auth\CanResetPassword;
 
 /**
  * App\User
@@ -61,4 +62,5 @@ class User extends Authenticatable
     {
         return $this->hasMany('App\Answer');
     }
+
 }
