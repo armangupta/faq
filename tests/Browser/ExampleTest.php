@@ -19,16 +19,29 @@ class ExampleTest extends TestCase
 
         $response->assertStatus(200);
     }
-    public function testBasicTest1()
+    public function testLogin()
     {
         $response = $this->get('/login');
 
         $response->assertStatus(200);
     }
-    public function testBasicTest2()
+    public function testRegister()
     {
         $response = $this->get('/register');
 
         $response->assertStatus(200);
+    }
+    public function testSession()
+    {
+        $response = $this->withSession(['foo' => 'bar'])
+            ->get('/');
+        $response->assertStatus(200);
+        $response->assertDontSee('joe');
+
+    }
+    public function testDocument()
+    {
+        $response = $this->get('/document');
+        $response->assertNotFound();
     }
 }
