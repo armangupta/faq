@@ -29,3 +29,6 @@ Route::delete('/questions/{question_id}/answer/{answer_id}', 'AnswerController@d
 Route::resources([
     'questions' => 'QuestionController',
 ]);
+Route::get('/uploadfile','UploadFileController@index')->name('uploadfile');
+Route::post('/uploadfile','UploadFileController@showUploadFile');
+Route::any('/form', 'ImageController@images')->name('image.images');
