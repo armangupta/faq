@@ -3,7 +3,7 @@ namespace PHPSTORM_META {
 
    /**
     * PhpStorm Meta file, to provide autocomplete information for PhpStorm
-    * Generated on 2018-05-06 07:28:32.
+    * Generated on 2018-05-07 23:43:33.
     *
     * @author Barry vd. Heuvel <barryvdh@gmail.com>
     * @see https://github.com/barryvdh/laravel-ide-helper
@@ -39,6 +39,8 @@ namespace PHPSTORM_META {
         'view' => \Illuminate\View\Factory::class,
         'view.finder' => \Illuminate\View\FileViewFinder::class,
         'view.engine.resolver' => \Illuminate\View\Engines\EngineResolver::class,
+        'image' => \Intervention\Image\ImageManager::class,
+        'imageupload' => \Matriphe\Imageupload\Imageupload::class,
         'blade.compiler' => \Illuminate\View\Compilers\BladeCompiler::class,
         'Illuminate\Console\Scheduling\Schedule' => \Illuminate\Console\Scheduling\Schedule::class,
         'cache' => \Illuminate\Cache\CacheManager::class,
@@ -175,6 +177,8 @@ namespace PHPSTORM_META {
         'view' => \Illuminate\View\Factory::class,
         'view.finder' => \Illuminate\View\FileViewFinder::class,
         'view.engine.resolver' => \Illuminate\View\Engines\EngineResolver::class,
+        'image' => \Intervention\Image\ImageManager::class,
+        'imageupload' => \Matriphe\Imageupload\Imageupload::class,
         'blade.compiler' => \Illuminate\View\Compilers\BladeCompiler::class,
         'Illuminate\Console\Scheduling\Schedule' => \Illuminate\Console\Scheduling\Schedule::class,
         'cache' => \Illuminate\Cache\CacheManager::class,
@@ -311,6 +315,8 @@ namespace PHPSTORM_META {
         'view' => \Illuminate\View\Factory::class,
         'view.finder' => \Illuminate\View\FileViewFinder::class,
         'view.engine.resolver' => \Illuminate\View\Engines\EngineResolver::class,
+        'image' => \Intervention\Image\ImageManager::class,
+        'imageupload' => \Matriphe\Imageupload\Imageupload::class,
         'blade.compiler' => \Illuminate\View\Compilers\BladeCompiler::class,
         'Illuminate\Console\Scheduling\Schedule' => \Illuminate\Console\Scheduling\Schedule::class,
         'cache' => \Illuminate\Cache\CacheManager::class,
@@ -447,6 +453,8 @@ namespace PHPSTORM_META {
         'view' => \Illuminate\View\Factory::class,
         'view.finder' => \Illuminate\View\FileViewFinder::class,
         'view.engine.resolver' => \Illuminate\View\Engines\EngineResolver::class,
+        'image' => \Intervention\Image\ImageManager::class,
+        'imageupload' => \Matriphe\Imageupload\Imageupload::class,
         'blade.compiler' => \Illuminate\View\Compilers\BladeCompiler::class,
         'Illuminate\Console\Scheduling\Schedule' => \Illuminate\Console\Scheduling\Schedule::class,
         'cache' => \Illuminate\Cache\CacheManager::class,
@@ -583,6 +591,8 @@ namespace PHPSTORM_META {
         'view' => \Illuminate\View\Factory::class,
         'view.finder' => \Illuminate\View\FileViewFinder::class,
         'view.engine.resolver' => \Illuminate\View\Engines\EngineResolver::class,
+        'image' => \Intervention\Image\ImageManager::class,
+        'imageupload' => \Matriphe\Imageupload\Imageupload::class,
         'blade.compiler' => \Illuminate\View\Compilers\BladeCompiler::class,
         'Illuminate\Console\Scheduling\Schedule' => \Illuminate\Console\Scheduling\Schedule::class,
         'cache' => \Illuminate\Cache\CacheManager::class,
@@ -719,6 +729,8 @@ namespace PHPSTORM_META {
         'view' => \Illuminate\View\Factory::class,
         'view.finder' => \Illuminate\View\FileViewFinder::class,
         'view.engine.resolver' => \Illuminate\View\Engines\EngineResolver::class,
+        'image' => \Intervention\Image\ImageManager::class,
+        'imageupload' => \Matriphe\Imageupload\Imageupload::class,
         'blade.compiler' => \Illuminate\View\Compilers\BladeCompiler::class,
         'Illuminate\Console\Scheduling\Schedule' => \Illuminate\Console\Scheduling\Schedule::class,
         'cache' => \Illuminate\Cache\CacheManager::class,
@@ -855,6 +867,8 @@ namespace PHPSTORM_META {
         'view' => \Illuminate\View\Factory::class,
         'view.finder' => \Illuminate\View\FileViewFinder::class,
         'view.engine.resolver' => \Illuminate\View\Engines\EngineResolver::class,
+        'image' => \Intervention\Image\ImageManager::class,
+        'imageupload' => \Matriphe\Imageupload\Imageupload::class,
         'blade.compiler' => \Illuminate\View\Compilers\BladeCompiler::class,
         'Illuminate\Console\Scheduling\Schedule' => \Illuminate\Console\Scheduling\Schedule::class,
         'cache' => \Illuminate\Cache\CacheManager::class,
